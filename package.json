@@ -1,0 +1,35 @@
+{
+  "name": "@gokulakrishnxn/deepresearch-agent",
+  "version": "1.0.0",
+  "description": "DeepSearch CLI wrapper package for the Python research agent.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gokulakrishnxn/deepresearch-agent.git"
+  },
+  "homepage": "https://github.com/Gokulakrishnxn/deepresearch-agent#readme",
+  "bugs": {
+    "url": "https://github.com/Gokulakrishnxn/deepresearch-agent/issues"
+  },
+  "bin": {
+    "deepresearch-agent": "bin/deepresearch-agent.js"
+  },
+  "files": [
+    "bin",
+    "agent.py",
+    "cli.py",
+    "requirements.txt",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "research",
+    "cli",
+    "gemini",
+    "gemma",
+    "adk"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
